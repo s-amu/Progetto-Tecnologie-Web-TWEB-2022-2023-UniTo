@@ -1,0 +1,107 @@
+/* Foglio di stile utilizzato per la pagina di registrazione pageRegistration.php */
+body {
+    background: linear-gradient(to right, blue , white);
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 18px;
+}
+
+h2 {
+    text-align: center;
+}
+
+#reg {
+    margin-top: 5%;
+    overflow: hidden;
+}
+
+#regSx {
+    float: right;
+    width: 29%;
+    text-shadow: 2px 2px 4px black;
+}
+
+#regSx > p {
+    font-size: 50px;
+    color: white;
+    width: 92%;
+}
+
+#regDx {
+    float: right;
+    width: 33%;
+    margin-right: 21%;
+    background-color: white;
+    border: 5px black;
+    border-style: double;
+    border-radius: 10px 10px 10px 10px;
+    background: linear-gradient(to bottom, blue , white);
+    overflow: hidden;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color:blueviolet;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: orange;
+}
+
+.error {
+    color: red;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+footer {
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+    background-color: blue;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    height: 8%;
+}
+
+input:invalid {
+    background: hsla(0, 90%, 70%, 1);
+}
+
+input:valid {
+    background: hsla(100, 90%, 70%, 1);
+}
+
+.btn, .btnMostraNascondi, .btnAddAuto, .btnAddPiste, .btnDelAuto, .btnDelPiste {
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    padding: 1% 3%;
+    background-color: rgb(86, 86, 255);
+}
+
+.redirect {
+    margin-left: 55%;
+}
+
+#regDx > div {
+    margin-left: 10px;
+}
+
+label:not(.nb) {
+    font-weight: bold;
+}
+
+#hover {
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+}
